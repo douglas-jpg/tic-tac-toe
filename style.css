@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin+Sketch:wght@400;700&display=swap');
+
+/*reset */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    border: none;
+    font-family: "Cabin Sketch", cursive;
+    color: var(--black);
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: var(--white);
+}
+
+/*colors */
+:root{
+    --cyan: #2aa189;
+    --blue: #2A52BE;
+    --red: #F01E2C;
+    --black: rgb(14, 17, 17);
+    --white: #fbfaf5;
+}
+
+/*header */
+header{
+    margin: 7vh 0 10px 0;
+    text-align: center;
+    font-size: clamp(1rem, 2.5vw, 2rem);
+}
+
+hr{
+    width: 100%;
+    height: 3px;
+    background-color: var(--black);
+    margin: 20px 0 20px 0;
+}
+
+/*template grid */
+main{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+}
+
+/*grid houses */
+.houses{
+    cursor: pointer;
+    height: clamp(90px, 7.5vw, 10vw);
+    width: clamp(70px, 9vw, 10vw);
+    background: none;
+    border: 2.5px solid var(--black);
+    font-family: "Cabin Sketch", cursive;
+    font-size: clamp(4rem, 230%, 5rem);
+    text-align: center;
+}
+
+.houses:hover:not(.circle, .cheese){
+    background-color: rgba(14, 17, 17, 0.1);
+}
+
+/* reset button */
+footer button{
+    cursor: pointer;
+    width: clamp(10px, 30vw, 260px);
+    height: 50px;
+    margin-top: 20px;
+    border-radius: 10px;
+    background-color: var(--cyan);
+    color: var(--white);
+    font-size: clamp(1rem, 3vw, 2rem);
+}
+
+footer button:hover{
+    background-color: rgba(42, 161, 137, 0.9);
+}
+
+/* cheese and circle style */
+.O{
+    color: var(--blue);
+}
+
+.X{
+    color: var(--red)
+}
