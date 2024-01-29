@@ -1,4 +1,4 @@
-# Nome do projeto
+# Tic Tac Toe
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/douglas-jpg/tic-tac-toe?style=for-the-badge)
 ![GitHub forks](https://img.shields.io/github/forks/douglas-jpg/tic-tac-toe?style=for-the-badge)
@@ -18,7 +18,7 @@ Antes de começar, verifique se você atendeu aos seguintes requisitos:
 * Você instalou a versão mais recente de `<node js>`
 * Você tem uma máquina `<Windows / Linux / Mac>`
 
-## 🚀 Instalando <nome_do_projeto>
+## 🚀 Instalando Tic Tac Toe
 
 Para instalar o tic tac toe, siga estas etapas:
 
