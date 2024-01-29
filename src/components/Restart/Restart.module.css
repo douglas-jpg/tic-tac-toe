@@ -1,0 +1,21 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.reset {
+    cursor: pointer;
+    width: 70%;
+    height: 50px;
+    margin-top: 20px;
+    border-radius: 10px;
+    background-color: var(--cyan);
+    color: var(--white);
+    font-size: 2em;
+}
+
+.reset:hover {
+    background-color: rgba(42, 161, 137, 0.9);
+}

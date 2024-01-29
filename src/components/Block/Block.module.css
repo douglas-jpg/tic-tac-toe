@@ -1,0 +1,14 @@
+.block{
+    cursor: pointer;
+    height: clamp(90px, 7.5vw, 10vw);
+    width: clamp(70px, 9vw, 10vw);
+    background: none;
+    border: 2.5px solid var(--black);
+    font-family: "Cabin Sketch", cursive;
+    font-size: clamp(4rem, 230%, 5rem);
+    text-align: center;
+}
+
+.block:hover:not(.circle, .cheese){
+    background-color: rgba(14, 17, 17, 0.1);
+}
